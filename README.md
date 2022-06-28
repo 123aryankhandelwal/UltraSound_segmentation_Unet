@@ -34,44 +34,33 @@ Pre-processing involves converting of the image from PNG to array using the Simp
 The last step involves appending of array of images to h5py file for both image and its respective ground truth.
 
 Further, our model is processed and built using U-NET.
-
-##put image
+![UNET](https://github.com/123aryankhandelwal/UltraSound_segmentation_Unet/blob/main/Images/unet.png)
 
 **ARCHITECTURE**
 
-##IMAGE
+![Project Architecture](https://github.com/123aryankhandelwal/UltraSound_segmentation_Unet/blob/main/Images/model_plot.png)
 
 **OUTPUT** 
 
 Our model is being trained using 50 epochs with 112 steps per epochs. The time taken for training the model per step of epochs is 732s, when trained under Nvidia 1650 GPU. We achieve the loss and accuracy of 0.1098 and 0.9563 for 4CH, 0.0764 and 0.9683 for 2CH.
 
 **2CH OUTPUT IMAGE**
-
-
-
 Training and validation loss
+![2ch loss](https://github.com/123aryankhandelwal/UltraSound_segmentation_Unet/blob/main/Images/2chloss.png)
 
-##image
-
-Training and validation accuracy
-
-##image
-
-
+Taining and validation accuracy
+![2ch accuracy](https://github.com/123aryankhandelwal/UltraSound_segmentation_Unet/blob/main/Images/2chacc.png)
 
 **4CH OUTPUT IMAGE**
-
 Training and validation loss
+![4ch loss](https://github.com/123aryankhandelwal/UltraSound_segmentation_Unet/blob/main/Images/4chloss.png)
 
-##image
-
-Training and validation accuracy
-
-##image
+Taining and validation accuracy
+![4ch accuracy](https://github.com/123aryankhandelwal/UltraSound_segmentation_Unet/blob/main/Images/4chacc.png)
 
 **REFERENCE LINKS**
 
-
+Camus dataset->https://drive.google.com/drive/folders/1PZeMAMLEsyzSqUKrchxQ0h8kACSvoI8B?usp=sharing
 
 
 
