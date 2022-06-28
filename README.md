@@ -20,7 +20,8 @@ The dataset that we are using in our project is the CAMUS dataset.The CAMUS data
 
   0 -> background     1 -> left ventricle     2 -> myocardium     3 -> left atrium
 
-![picture](https://github.com/123aryankhandelwal/UltraSound_segmentation_Unet/blob/main/Images/2CH_ED.png)
+![2CH_ED](https://github.com/123aryankhandelwal/UltraSound_segmentation_Unet/blob/main/Images/2CH_ED.png)
+![2CH_ED_GT](https://github.com/123aryankhandelwal/UltraSound_segmentation_Unet/blob/main/Images/2CH_ED_gt.png)
 
 **OUR APPROACH**
 
